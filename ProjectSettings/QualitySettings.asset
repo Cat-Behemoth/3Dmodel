@@ -121,7 +121,7 @@ QualitySettings:
     particleRaycastBudget: 4096
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 2
+    Android: 5
     FlashPlayer: 3
     GLES Emulation: 3
     PS3: 3
