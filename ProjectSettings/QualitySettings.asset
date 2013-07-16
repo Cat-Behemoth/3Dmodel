@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 3
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: Fastest
@@ -24,7 +24,8 @@ QualitySettings:
     lodBias: .300000012
     maximumLODLevel: 0
     particleRaycastBudget: 4
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
   - serializedVersion: 2
     name: Fast
     pixelLightCount: 0
@@ -43,7 +44,8 @@ QualitySettings:
     lodBias: .400000006
     maximumLODLevel: 0
     particleRaycastBudget: 16
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
   - serializedVersion: 2
     name: Simple
     pixelLightCount: 1
@@ -65,7 +67,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Good
-    pixelLightCount: 2
+    pixelLightCount: 1
     shadows: 2
     shadowResolution: 1
     shadowProjection: 1
@@ -77,11 +79,12 @@ QualitySettings:
     antiAliasing: 0
     softParticles: 0
     softVegetation: 1
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 1
     maximumLODLevel: 0
     particleRaycastBudget: 256
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
   - serializedVersion: 2
     name: Beautiful
     pixelLightCount: 3
@@ -100,10 +103,11 @@ QualitySettings:
     lodBias: 1.5
     maximumLODLevel: 0
     particleRaycastBudget: 1024
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
   - serializedVersion: 2
     name: Fantastic
-    pixelLightCount: 4
+    pixelLightCount: 1
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1
@@ -112,16 +116,17 @@ QualitySettings:
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 2
-    softParticles: 1
+    antiAliasing: 0
+    softParticles: 0
     softVegetation: 1
     vSyncCount: 1
     lodBias: 2
     maximumLODLevel: 0
     particleRaycastBudget: 4096
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
   m_PerPlatformDefaultQuality:
-    Android: 5
+    Android: 2
     FlashPlayer: 3
     GLES Emulation: 3
     PS3: 3
